@@ -1,0 +1,106 @@
+.navbar-light .navbar-nav .nav-link{
+    color:white;
+}
+.navbar-light .navbar-nav .nav-link:hover{
+    color: rgb(255, 0, 0);
+}
+
+.box{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+}
+
+.box-1{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: rgba(6, 24, 44, 0.4) 0px 0px 0px 2px, rgba(6, 24, 44, 0.65) 0px 4px 6px -1px, rgba(255, 255, 255, 0.08) 0px 1px 0px inset;
+}
+
+.box-2{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: #b24BF3 5px 5px, #A020F0 10px 10px, #9417E2 15px 15px, #880ED4 20px 20px;
+}
+
+.box-3{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 30px 60px -12px inset, rgba(0, 0, 0, 0.3) 0px 18px 36px -18px inset;
+}
+
+.box-4{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px -50px 36px -28px inset;
+}
+
+.box-5{
+    background: #fff;
+    padding: 2rem;
+    margin: 1rem;
+    border-radius: 3px;
+    box-shadow: rgb(255, 0, 0) 0px 1px 4px, rgb(255, 0, 0) 0px 0px 0px 3px;
+}
+
+.stuff{
+        background: #fff;
+        padding: 2rem;
+        margin: 1rem;
+        border-radius: 3px;
+        box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.12), 0 2px 4px 0 rgba(0, 0, 0, 0.08);
+        width: 95%;
+        max-width: 900px;
+}
+
+body{
+    background-color: #2A3166;
+}
+
+.floaty{
+    position: relative;
+}
+
+.bg-custom{
+    background-image: url("img/Website.gif") no-repeat;
+    background-size: auto;
+}
+
+#certificate, .bold{
+    font-weight: bold;
+}
+
+#certificate:hover{
+    color: darkgreen;
+}
+
+.blur{
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+
+@media (max-width: 1920px){ 
+    .dynamic_margin{
+        margin-left: 12%;
+    }
+}
+
+@media (max-width: 720px){ 
+    .dynamic_margin{
+        margin-left: -3%;
+    }
+}
+
+
+
+
+
